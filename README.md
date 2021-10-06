@@ -92,8 +92,15 @@ Il existe trois groupes de patterns
 - Encapsulation de la logique de création
 - On ne sait pas à l'avance ce qui sera créé ou comment cela sera crée
 
+<br />
 
 ## Pattern Fabrique
+
+La fabrique (factory method) est un patron de conception créationnel utilisé en programmation orientée objet. Elle permet d'instancier des objets dont le type est dérivé d'un type abstrait. La classe exacte de l'objet n'est donc pas connue par l'appelant.
+
+Plusieurs fabriques peuvent être regroupées en une fabrique abstraite permettant d'instancier des objets dérivant de plusieurs types abstraits différents.
+
+Les fabriques étant en général uniques dans un programme, on utilise souvent le patron de conception singleton pour les implémenter.
 
 ### Problématiques
 Obtenir facilement un objet prêt à l'emploi et qui correspond à nos besoins
@@ -121,3 +128,73 @@ public class FabriqueAnimal {
     }
 }
 ```
+
+<br />
+
+## Pattern Fabrique abstraite
+
+Elle fournit une interface pour créer des familles d'objets liés ou inter-dépendants sans avoir à préciser au moment de leur création la classe concrète à utiliser.
+
+### Problématique
+Encapsuler un groupe de fabrique ayant une thématique commune
+
+### Intention
+Isoler la création des objets de leur utilisation. 
+
+### Solution
+Encapsulation
+
+### Conséquences
+- Isole les classe concrètes
+- Facilite la substituion
+- Favorise le maintient de la cohérence
+
+<br />
+
+## Pattern Builder
+
+Le monteur (builder) est un patron de conception utilisé pour la création d'une variété d'objets complexes à partir d'un objet source. L'objet source peut consister en une variété de parties contribuant individuellement à la création de chaque objet complet grâce à un ensemble d'appels à l'interface commune de la classe abstraite Monteur.
+
+<br />
+
+## Pattern Prototype 
+
+Le patron de conception prototype est utilisé lorsque la création d'une instance est complexe ou consommatrice en temps. Plutôt que créer plusieurs instances de la classe, on copie la première instance et on modifie la copie de façon appropriée.
+
+Pour implémenter ce patron il faut déclarer une `classe abstraite` spécifiant une méthode virtuelle pure appelée `clone()`. Toute classe nécessitant un constructeur *polymorphique* dérivera de cette classe abstraite et implémentera la méthode `clone()`.
+
+Le client de cette classe, au lieu d'écrire du code invoquant directement l'opérateur `new` sur une classe explicitement connue, appellera la méthode `clone()` sur le prototype ou passera par un mécanisme fourni par un autre patron de conception (par exemple une méthode de fabrique avec un paramètre désignant la classe concrète à instancier).
+
+<br />
+
+## Pattern Singleton
+
+L'objectif est de restreindre l'instanciation d'une classe à un seul objet (ou bien à quelques objets seulement). Il est utilisé lorsqu'on a besoin exactement d'un objet pour coordonner des opérations dans un système. Le modèle est parfois utilisé pour son efficacité, lorsque le système est plus rapide ou occupe moins de mémoire avec peu d'objets qu'avec beaucoup d'objets similaires.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

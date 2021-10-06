@@ -1,0 +1,294 @@
+--> Wrapper Started as Daemon
+Launching a JVM...
+Unable to start JVM: No such file or directory (2)
+JVM exited while loading the application.
+JVM Restarts disabled.  Shutting down.
+<-- Wrapper Stopped
+--> Wrapper Started as Daemon
+Launching a JVM...
+Unable to start JVM: No such file or directory (2)
+JVM exited while loading the application.
+JVM Restarts disabled.  Shutting down.
+<-- Wrapper Stopped
+--> Wrapper Started as Daemon
+Launching a JVM...
+Unable to start JVM: No such file or directory (2)
+JVM exited while loading the application.
+JVM Restarts disabled.  Shutting down.
+<-- Wrapper Stopped
+--> Wrapper Started as Daemon
+Launching a JVM...
+Unable to start JVM: No such file or directory (2)
+JVM exited while loading the application.
+JVM Restarts disabled.  Shutting down.
+<-- Wrapper Stopped
+--> Wrapper Started as Daemon
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2021.10.04 13:27:27 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /home/nathanael/MASTER_S1/software-engineering/install/sonarqube/temp
+2021.10.04 13:27:27 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on [HTTP: 127.0.0.1:9001, TCP: 127.0.0.1:34493]
+2021.10.04 13:27:27 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='es', ipcIndex=1, logFilenamePrefix=es]] from [/home/nathanael/MASTER_S1/software-engineering/install/sonarqube/elasticsearch]: /home/nathanael/MASTER_S1/software-engineering/install/sonarqube/elasticsearch/bin/elasticsearch
+2021.10.04 13:27:27 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2021.10.04 13:27:28 ERROR app[][o.s.a.p.EsManagedProcess] Failed to check status
+org.elasticsearch.ElasticsearchException: java.util.concurrent.ExecutionException: java.net.ConnectException: Connexion refusée
+	at org.elasticsearch.client.RestHighLevelClient.performClientRequest(RestHighLevelClient.java:2078)
+	at org.elasticsearch.client.RestHighLevelClient.internalPerformRequest(RestHighLevelClient.java:1732)
+	at org.elasticsearch.client.RestHighLevelClient.performRequest(RestHighLevelClient.java:1702)
+	at org.elasticsearch.client.RestHighLevelClient.performRequestAndParseEntity(RestHighLevelClient.java:1672)
+	at org.elasticsearch.client.ClusterClient.health(ClusterClient.java:119)
+	at org.sonar.application.es.EsConnectorImpl.getClusterHealthStatus(EsConnectorImpl.java:64)
+	at org.sonar.application.process.EsManagedProcess.checkStatus(EsManagedProcess.java:90)
+	at org.sonar.application.process.EsManagedProcess.checkOperational(EsManagedProcess.java:75)
+	at org.sonar.application.process.EsManagedProcess.isOperational(EsManagedProcess.java:60)
+	at org.sonar.application.process.ManagedProcessHandler.refreshState(ManagedProcessHandler.java:220)
+	at org.sonar.application.process.ManagedProcessHandler$EventWatcher.run(ManagedProcessHandler.java:285)
+Caused by: java.util.concurrent.ExecutionException: java.net.ConnectException: Connexion refusée
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.getValue(BaseFuture.java:262)
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.get(BaseFuture.java:249)
+	at org.elasticsearch.common.util.concurrent.BaseFuture.get(BaseFuture.java:76)
+	at org.elasticsearch.client.RestHighLevelClient.performClientRequest(RestHighLevelClient.java:2075)
+	... 10 common frames omitted
+Caused by: java.net.ConnectException: Connexion refusée
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:221)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021.10.04 13:27:28 ERROR app[][o.s.a.p.EsManagedProcess] Failed to check status
+org.elasticsearch.ElasticsearchException: java.util.concurrent.ExecutionException: java.net.ConnectException: Connexion refusée
+	at org.elasticsearch.client.RestHighLevelClient.performClientRequest(RestHighLevelClient.java:2078)
+	at org.elasticsearch.client.RestHighLevelClient.internalPerformRequest(RestHighLevelClient.java:1732)
+	at org.elasticsearch.client.RestHighLevelClient.performRequest(RestHighLevelClient.java:1702)
+	at org.elasticsearch.client.RestHighLevelClient.performRequestAndParseEntity(RestHighLevelClient.java:1672)
+	at org.elasticsearch.client.ClusterClient.health(ClusterClient.java:119)
+	at org.sonar.application.es.EsConnectorImpl.getClusterHealthStatus(EsConnectorImpl.java:64)
+	at org.sonar.application.process.EsManagedProcess.checkStatus(EsManagedProcess.java:90)
+	at org.sonar.application.process.EsManagedProcess.checkOperational(EsManagedProcess.java:75)
+	at org.sonar.application.process.EsManagedProcess.isOperational(EsManagedProcess.java:60)
+	at org.sonar.application.process.ManagedProcessHandler.refreshState(ManagedProcessHandler.java:220)
+	at org.sonar.application.process.ManagedProcessHandler$EventWatcher.run(ManagedProcessHandler.java:285)
+Caused by: java.util.concurrent.ExecutionException: java.net.ConnectException: Connexion refusée
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.getValue(BaseFuture.java:262)
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.get(BaseFuture.java:249)
+	at org.elasticsearch.common.util.concurrent.BaseFuture.get(BaseFuture.java:76)
+	at org.elasticsearch.client.RestHighLevelClient.performClientRequest(RestHighLevelClient.java:2075)
+	... 10 common frames omitted
+Caused by: java.net.ConnectException: Connexion refusée
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:221)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021.10.04 13:27:29 ERROR app[][o.s.a.p.EsManagedProcess] Failed to check status
+org.elasticsearch.ElasticsearchException: java.util.concurrent.ExecutionException: java.net.ConnectException: Connexion refusée
+	at org.elasticsearch.client.RestHighLevelClient.performClientRequest(RestHighLevelClient.java:2078)
+	at org.elasticsearch.client.RestHighLevelClient.internalPerformRequest(RestHighLevelClient.java:1732)
+	at org.elasticsearch.client.RestHighLevelClient.performRequest(RestHighLevelClient.java:1702)
+	at org.elasticsearch.client.RestHighLevelClient.performRequestAndParseEntity(RestHighLevelClient.java:1672)
+	at org.elasticsearch.client.ClusterClient.health(ClusterClient.java:119)
+	at org.sonar.application.es.EsConnectorImpl.getClusterHealthStatus(EsConnectorImpl.java:64)
+	at org.sonar.application.process.EsManagedProcess.checkStatus(EsManagedProcess.java:90)
+	at org.sonar.application.process.EsManagedProcess.checkOperational(EsManagedProcess.java:75)
+	at org.sonar.application.process.EsManagedProcess.isOperational(EsManagedProcess.java:60)
+	at org.sonar.application.process.ManagedProcessHandler.refreshState(ManagedProcessHandler.java:220)
+	at org.sonar.application.process.ManagedProcessHandler$EventWatcher.run(ManagedProcessHandler.java:285)
+Caused by: java.util.concurrent.ExecutionException: java.net.ConnectException: Connexion refusée
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.getValue(BaseFuture.java:262)
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.get(BaseFuture.java:249)
+	at org.elasticsearch.common.util.concurrent.BaseFuture.get(BaseFuture.java:76)
+	at org.elasticsearch.client.RestHighLevelClient.performClientRequest(RestHighLevelClient.java:2075)
+	... 10 common frames omitted
+Caused by: java.net.ConnectException: Connexion refusée
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:221)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021.10.04 13:27:29 ERROR app[][o.s.a.p.EsManagedProcess] Failed to check status
+org.elasticsearch.ElasticsearchException: java.util.concurrent.ExecutionException: java.net.ConnectException: Connexion refusée
+	at org.elasticsearch.client.RestHighLevelClient.performClientRequest(RestHighLevelClient.java:2078)
+	at org.elasticsearch.client.RestHighLevelClient.internalPerformRequest(RestHighLevelClient.java:1732)
+	at org.elasticsearch.client.RestHighLevelClient.performRequest(RestHighLevelClient.java:1702)
+	at org.elasticsearch.client.RestHighLevelClient.performRequestAndParseEntity(RestHighLevelClient.java:1672)
+	at org.elasticsearch.client.ClusterClient.health(ClusterClient.java:119)
+	at org.sonar.application.es.EsConnectorImpl.getClusterHealthStatus(EsConnectorImpl.java:64)
+	at org.sonar.application.process.EsManagedProcess.checkStatus(EsManagedProcess.java:90)
+	at org.sonar.application.process.EsManagedProcess.checkOperational(EsManagedProcess.java:75)
+	at org.sonar.application.process.EsManagedProcess.isOperational(EsManagedProcess.java:60)
+	at org.sonar.application.process.ManagedProcessHandler.refreshState(ManagedProcessHandler.java:220)
+	at org.sonar.application.process.ManagedProcessHandler$EventWatcher.run(ManagedProcessHandler.java:285)
+Caused by: java.util.concurrent.ExecutionException: java.net.ConnectException: Connexion refusée
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.getValue(BaseFuture.java:262)
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.get(BaseFuture.java:249)
+	at org.elasticsearch.common.util.concurrent.BaseFuture.get(BaseFuture.java:76)
+	at org.elasticsearch.client.RestHighLevelClient.performClientRequest(RestHighLevelClient.java:2075)
+	... 10 common frames omitted
+Caused by: java.net.ConnectException: Connexion refusée
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:221)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021.10.04 13:27:30 ERROR app[][o.s.a.p.EsManagedProcess] Failed to check status
+org.elasticsearch.ElasticsearchException: java.util.concurrent.ExecutionException: java.net.ConnectException: Connexion refusée
+	at org.elasticsearch.client.RestHighLevelClient.performClientRequest(RestHighLevelClient.java:2078)
+	at org.elasticsearch.client.RestHighLevelClient.internalPerformRequest(RestHighLevelClient.java:1732)
+	at org.elasticsearch.client.RestHighLevelClient.performRequest(RestHighLevelClient.java:1702)
+	at org.elasticsearch.client.RestHighLevelClient.performRequestAndParseEntity(RestHighLevelClient.java:1672)
+	at org.elasticsearch.client.ClusterClient.health(ClusterClient.java:119)
+	at org.sonar.application.es.EsConnectorImpl.getClusterHealthStatus(EsConnectorImpl.java:64)
+	at org.sonar.application.process.EsManagedProcess.checkStatus(EsManagedProcess.java:90)
+	at org.sonar.application.process.EsManagedProcess.checkOperational(EsManagedProcess.java:75)
+	at org.sonar.application.process.EsManagedProcess.isOperational(EsManagedProcess.java:60)
+	at org.sonar.application.process.ManagedProcessHandler.refreshState(ManagedProcessHandler.java:220)
+	at org.sonar.application.process.ManagedProcessHandler$EventWatcher.run(ManagedProcessHandler.java:285)
+Caused by: java.util.concurrent.ExecutionException: java.net.ConnectException: Connexion refusée
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.getValue(BaseFuture.java:262)
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.get(BaseFuture.java:249)
+	at org.elasticsearch.common.util.concurrent.BaseFuture.get(BaseFuture.java:76)
+	at org.elasticsearch.client.RestHighLevelClient.performClientRequest(RestHighLevelClient.java:2075)
+	... 10 common frames omitted
+Caused by: java.net.ConnectException: Connexion refusée
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:221)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021.10.04 13:27:30 ERROR app[][o.s.a.p.EsManagedProcess] Failed to check status
+org.elasticsearch.ElasticsearchException: java.util.concurrent.ExecutionException: java.net.ConnectException: Connexion refusée
+	at org.elasticsearch.client.RestHighLevelClient.performClientRequest(RestHighLevelClient.java:2078)
+	at org.elasticsearch.client.RestHighLevelClient.internalPerformRequest(RestHighLevelClient.java:1732)
+	at org.elasticsearch.client.RestHighLevelClient.performRequest(RestHighLevelClient.java:1702)
+	at org.elasticsearch.client.RestHighLevelClient.performRequestAndParseEntity(RestHighLevelClient.java:1672)
+	at org.elasticsearch.client.ClusterClient.health(ClusterClient.java:119)
+	at org.sonar.application.es.EsConnectorImpl.getClusterHealthStatus(EsConnectorImpl.java:64)
+	at org.sonar.application.process.EsManagedProcess.checkStatus(EsManagedProcess.java:90)
+	at org.sonar.application.process.EsManagedProcess.checkOperational(EsManagedProcess.java:75)
+	at org.sonar.application.process.EsManagedProcess.isOperational(EsManagedProcess.java:60)
+	at org.sonar.application.process.ManagedProcessHandler.refreshState(ManagedProcessHandler.java:220)
+	at org.sonar.application.process.ManagedProcessHandler$EventWatcher.run(ManagedProcessHandler.java:285)
+Caused by: java.util.concurrent.ExecutionException: java.net.ConnectException: Connexion refusée
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.getValue(BaseFuture.java:262)
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.get(BaseFuture.java:249)
+	at org.elasticsearch.common.util.concurrent.BaseFuture.get(BaseFuture.java:76)
+	at org.elasticsearch.client.RestHighLevelClient.performClientRequest(RestHighLevelClient.java:2075)
+	... 10 common frames omitted
+Caused by: java.net.ConnectException: Connexion refusée
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:221)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021.10.04 13:27:31 ERROR app[][o.s.a.p.EsManagedProcess] Failed to check status
+org.elasticsearch.ElasticsearchException: java.util.concurrent.ExecutionException: java.net.ConnectException: Connexion refusée
+	at org.elasticsearch.client.RestHighLevelClient.performClientRequest(RestHighLevelClient.java:2078)
+	at org.elasticsearch.client.RestHighLevelClient.internalPerformRequest(RestHighLevelClient.java:1732)
+	at org.elasticsearch.client.RestHighLevelClient.performRequest(RestHighLevelClient.java:1702)
+	at org.elasticsearch.client.RestHighLevelClient.performRequestAndParseEntity(RestHighLevelClient.java:1672)
+	at org.elasticsearch.client.ClusterClient.health(ClusterClient.java:119)
+	at org.sonar.application.es.EsConnectorImpl.getClusterHealthStatus(EsConnectorImpl.java:64)
+	at org.sonar.application.process.EsManagedProcess.checkStatus(EsManagedProcess.java:90)
+	at org.sonar.application.process.EsManagedProcess.checkOperational(EsManagedProcess.java:75)
+	at org.sonar.application.process.EsManagedProcess.isOperational(EsManagedProcess.java:60)
+	at org.sonar.application.process.ManagedProcessHandler.refreshState(ManagedProcessHandler.java:220)
+	at org.sonar.application.process.ManagedProcessHandler$EventWatcher.run(ManagedProcessHandler.java:285)
+Caused by: java.util.concurrent.ExecutionException: java.net.ConnectException: Connexion refusée
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.getValue(BaseFuture.java:262)
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.get(BaseFuture.java:249)
+	at org.elasticsearch.common.util.concurrent.BaseFuture.get(BaseFuture.java:76)
+	at org.elasticsearch.client.RestHighLevelClient.performClientRequest(RestHighLevelClient.java:2075)
+	... 10 common frames omitted
+Caused by: java.net.ConnectException: Connexion refusée
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:221)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021.10.04 13:27:31 ERROR app[][o.s.a.p.EsManagedProcess] Failed to check status
+org.elasticsearch.ElasticsearchException: java.util.concurrent.ExecutionException: java.net.ConnectException: Connexion refusée
+	at org.elasticsearch.client.RestHighLevelClient.performClientRequest(RestHighLevelClient.java:2078)
+	at org.elasticsearch.client.RestHighLevelClient.internalPerformRequest(RestHighLevelClient.java:1732)
+	at org.elasticsearch.client.RestHighLevelClient.performRequest(RestHighLevelClient.java:1702)
+	at org.elasticsearch.client.RestHighLevelClient.performRequestAndParseEntity(RestHighLevelClient.java:1672)
+	at org.elasticsearch.client.ClusterClient.health(ClusterClient.java:119)
+	at org.sonar.application.es.EsConnectorImpl.getClusterHealthStatus(EsConnectorImpl.java:64)
+	at org.sonar.application.process.EsManagedProcess.checkStatus(EsManagedProcess.java:90)
+	at org.sonar.application.process.EsManagedProcess.checkOperational(EsManagedProcess.java:75)
+	at org.sonar.application.process.EsManagedProcess.isOperational(EsManagedProcess.java:60)
+	at org.sonar.application.process.ManagedProcessHandler.refreshState(ManagedProcessHandler.java:220)
+	at org.sonar.application.process.ManagedProcessHandler$EventWatcher.run(ManagedProcessHandler.java:285)
+Caused by: java.util.concurrent.ExecutionException: java.net.ConnectException: Connexion refusée
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.getValue(BaseFuture.java:262)
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.get(BaseFuture.java:249)
+	at org.elasticsearch.common.util.concurrent.BaseFuture.get(BaseFuture.java:76)
+	at org.elasticsearch.client.RestHighLevelClient.performClientRequest(RestHighLevelClient.java:2075)
+	... 10 common frames omitted
+Caused by: java.net.ConnectException: Connexion refusée
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:221)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021.10.04 13:27:32 ERROR app[][o.s.a.p.EsManagedProcess] Failed to check status
+org.elasticsearch.ElasticsearchException: java.util.concurrent.ExecutionException: java.net.ConnectException: Connexion refusée
+	at org.elasticsearch.client.RestHighLevelClient.performClientRequest(RestHighLevelClient.java:2078)
+	at org.elasticsearch.client.RestHighLevelClient.internalPerformRequest(RestHighLevelClient.java:1732)
+	at org.elasticsearch.client.RestHighLevelClient.performRequest(RestHighLevelClient.java:1702)
+	at org.elasticsearch.client.RestHighLevelClient.performRequestAndParseEntity(RestHighLevelClient.java:1672)
+	at org.elasticsearch.client.ClusterClient.health(ClusterClient.java:119)
+	at org.sonar.application.es.EsConnectorImpl.getClusterHealthStatus(EsConnectorImpl.java:64)
+	at org.sonar.application.process.EsManagedProcess.checkStatus(EsManagedProcess.java:90)
+	at org.sonar.application.process.EsManagedProcess.checkOperational(EsManagedProcess.java:75)
+	at org.sonar.application.process.EsManagedProcess.isOperational(EsManagedProcess.java:60)
+	at org.sonar.application.process.ManagedProcessHandler.refreshState(ManagedProcessHandler.java:220)
+	at org.sonar.application.process.ManagedProcessHandler$EventWatcher.run(ManagedProcessHandler.java:285)
+Caused by: java.util.concurrent.ExecutionException: java.net.ConnectException: Connexion refusée
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.getValue(BaseFuture.java:262)
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.get(BaseFuture.java:249)
+	at org.elasticsearch.common.util.concurrent.BaseFuture.get(BaseFuture.java:76)
+	at org.elasticsearch.client.RestHighLevelClient.performClientRequest(RestHighLevelClient.java:2075)
+	... 10 common frames omitted
+Caused by: java.net.ConnectException: Connexion refusée
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:221)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021.10.04 13:27:32 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2021.10.04 13:27:32 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [/home/nathanael/MASTER_S1/software-engineering/install/sonarqube]: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/home/nathanael/MASTER_S1/software-engineering/install/sonarqube/temp -XX:-OmitStackTraceInFastThrow --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED --add-exports=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.management/sun.management=ALL-UNNAMED --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/sonar-application-9.1.0.47736.jar:/home/nathanael/MASTER_S1/software-engineering/install/sonarqube/lib/jdbc/h2/h2-1.4.199.jar org.sonar.server.app.WebServer /home/nathanael/MASTER_S1/software-engineering/install/sonarqube/temp/sq-process5472386583218082896properties
+2021.10.04 13:27:50 INFO  app[][o.s.a.SchedulerImpl] Process[web] is up
+2021.10.04 13:27:50 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='ce', ipcIndex=3, logFilenamePrefix=ce]] from [/home/nathanael/MASTER_S1/software-engineering/install/sonarqube]: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/home/nathanael/MASTER_S1/software-engineering/install/sonarqube/temp -XX:-OmitStackTraceInFastThrow --add-opens=java.base/java.util=ALL-UNNAMED --add-exports=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.management/sun.management=ALL-UNNAMED --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/sonar-application-9.1.0.47736.jar:/home/nathanael/MASTER_S1/software-engineering/install/sonarqube/lib/jdbc/h2/h2-1.4.199.jar org.sonar.ce.app.CeServer /home/nathanael/MASTER_S1/software-engineering/install/sonarqube/temp/sq-process9591583281309300018properties
+2021.10.04 13:27:50 WARN  app[][startup] ####################################################################################################################
+2021.10.04 13:27:50 WARN  app[][startup] Default Administrator credentials are still being used. Make sure to change the password or deactivate the account.
+2021.10.04 13:27:50 WARN  app[][startup] ####################################################################################################################
+2021.10.04 13:27:53 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is up
+2021.10.04 13:27:53 INFO  app[][o.s.a.SchedulerImpl] SonarQube is up

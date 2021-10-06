@@ -75,6 +75,8 @@ public class Arc {
     /**
      * methode de comparaison necessaire pour implementer Comparable Permet de
      * rechercher un Arc dans un TreeSet
+     * 
+     * @param o un objet Arc
      **/
     public int compareTo(Arc o) {
         if (this.from.id() == o.from().id() && this.to.id() == o.to().id())
@@ -85,7 +87,10 @@ public class Arc {
     }
     
      
-    // methode d'affichage
+    /** 
+     * toString() method
+     * @return string format for an Arc
+     */
     public String toString() {
         return this.from.id() + "->" + this.to.id();
     }

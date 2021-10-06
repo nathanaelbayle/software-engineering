@@ -172,6 +172,82 @@ Le client de cette classe, au lieu d'écrire du code invoquant directement l'op�
 L'objectif est de restreindre l'instanciation d'une classe à un seul objet (ou bien à quelques objets seulement). Il est utilisé lorsqu'on a besoin exactement d'un objet pour coordonner des opérations dans un système. Le modèle est parfois utilisé pour son efficacité, lorsque le système est plus rapide ou occupe moins de mémoire avec peu d'objets qu'avec beaucoup d'objets similaires.
 
 
+# Pattern de Structures
+
+## Pattern Adaptateur
+
+[See wikipedia](https://fr.wikipedia.org/wiki/Adaptateur_(patron_de_conception))
+
+#### Utilisation particuliere
+
+```java
+public class MouseBeeper extends MouseAdapter
+{
+    public void mouseClicker(MouseEvent e)
+    {
+        Toolkit.getDefaultToolkit().beep();
+    }
+}
+```
+
+##  Pattern Decorateur
+
+[See wikipedia](https://fr.wikipedia.org/wiki/Décorateur_(patron_de_conception))
+
+## Pattern Facade
+
+Le patron façade fournit une interface unifiée sur un ensemble d'interfaces d'un système1. Il est utilisé pour réaliser des interfaces de programmation. Si un sous-système comporte plusieurs composants qui doivent être utilisés dans un ordre précis, une classe façade sera mise à disposition, et permettra de contrôler l'ordre des opérations et de cacher les détails techniques des sous-systèmes.
+
+[See Wikipedia](https://fr.wikipedia.org/wiki/Façade_(patron_de_conception))
+
+## Pattern Peoxy (proccuration)
+
+Ce patron est un substitut d'un objet, qui permet de contrôler l'utilisation de ce dernier1. Un proxy est un objet destiné à protéger un autre objet. Le proxy a la même interface que l'objet à protéger. Un proxy peut être créé par exemple pour permettre d’accéder à distance à un objet (via un middleware). Le proxy peut également être créé dans le but de retarder la création de l'objet protégé — qui sera créé immédiatement avant d'être utilisé. Dans sa forme la plus simple, un proxy ne protège rien du tout et transmet tous les appels de méthode à l'objet cible.
+
+[See Wikipedia](https://fr.wikipedia.org/wiki/Proxy_(patron_de_conception))
+
+
+## Poinds Mouche (flyweight)
+
+>.
+
+## Pattern Pont
+
+Découplé l'interface de l'implémentation 
+
+## Pattern Composite
+
+>.
+
+<br />
+<br />
+
+# Pattern Comportementaux 
+
+## Itérateur
+
+## État
+
+## Interpréteur
+
+## Visiteur
+
+## Observateur
+
+## Stratégie
+
+## Mémento
+
+## 
+
+
+
+
+
+
+
+
+
 
 
 

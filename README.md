@@ -238,8 +238,13 @@ Découplé l'interface de l'implémentation
 
 ## Mémento
 
-## 
+## Patron de méthode (template methode)
 
+## Chaîne de responsabilité
+
+## Commande
+
+## Médiateur
 
 
 

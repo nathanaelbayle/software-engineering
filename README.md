@@ -86,10 +86,38 @@ Il existe trois groupes de patterns
 - Comportement : Communication entre les objets
 
 
+# Pattern de Création
+
+- Abstratcion du processus de création
+- Encapsulation de la logique de création
+- On ne sait pas à l'avance ce qui sera créé ou comment cela sera crée
 
 
+## Pattern Fabrique
 
+### Problématiques
+Obtenir facilement un objet prêt à l'emploi et qui correspond à nos besoins
 
+### Solution
+Uns classe qui encapsule la logique de création des objets en question
 
+### Conséquences
+Dispense d'incorporer à son code des classes spécifiques
 
+> La fabrique permet d'instancier des objets dont le type est déribé d'un type abstrait
+> La classe exacte de l'objet n'est donc pas connue par l'appelant.
 
+```java
+public class FabriqueAnimal {
+
+    Animal getAnimal(Strin typeAnimal) throws ExceptionCreation {
+        if (typeAnimal.equals("chat")) {
+            return new Chat();
+        } 
+        else if (tupeAnimal.equals("chien")) {
+            return new Chien();
+        }
+        throw new ExceptionCreation("Impossible de créer " + typeAnimal);
+    }
+}
+```

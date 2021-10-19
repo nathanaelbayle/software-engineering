@@ -1,4 +1,35 @@
-2021.10.06 07:57:37 WARN  es[][o.e.t.ThreadPool] timer thread slept for [9.8h/35440909ms] on absolute clock which is above the warn threshold of [5000ms]
-2021.10.06 07:57:37 WARN  es[][o.e.t.ThreadPool] timer thread slept for [5.5s/5530239428ns] on relative clock which is above the warn threshold of [5000ms]
-2021.10.06 09:44:21 WARN  es[][o.e.t.ThreadPool] timer thread slept for [13.3m/802620ms] on absolute clock which is above the warn threshold of [5000ms]
-2021.10.06 09:44:21 WARN  es[][o.e.t.ThreadPool] timer thread slept for [5.5s/5564569380ns] on relative clock which is above the warn threshold of [5000ms]
+2021.10.07 07:59:53 WARN  es[][o.e.t.ThreadPool] timer thread slept for [12.7h/45856793ms] on absolute clock which is above the warn threshold of [5000ms]
+2021.10.07 07:59:53 WARN  es[][o.e.t.ThreadPool] timer thread slept for [5.5s/5511946206ns] on relative clock which is above the warn threshold of [5000ms]
+2021.10.07 08:07:45 INFO  es[][o.e.n.Node] version[7.14.1], pid[7087], build[default/tar/66b55ebfa59c92c15db3f69a335d500018b3331e/2021-08-26T09:01:05.390870785Z], OS[Linux/5.11.0-37-generic/amd64], JVM[Ubuntu/OpenJDK 64-Bit Server VM/11.0.7/11.0.7+10-post-Ubuntu-3ubuntu1]
+2021.10.07 08:07:45 INFO  es[][o.e.n.Node] JVM home [/usr/lib/jvm/java-11-openjdk-amd64]
+2021.10.07 08:07:45 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseG1GC, -Djava.io.tmpdir=/home/nathanael/MASTER_S1/software-engineering/install/sonarqube/temp, -XX:ErrorFile=../logs/es_hs_err_pid%p.log, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dio.netty.allocator.numDirectArenas=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.locale.providers=COMPAT, -Xmx512m, -Xms512m, -XX:MaxDirectMemorySize=256m, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/home/nathanael/MASTER_S1/software-engineering/install/sonarqube/elasticsearch, -Des.path.conf=/home/nathanael/MASTER_S1/software-engineering/install/sonarqube/temp/conf/es, -Des.distribution.flavor=default, -Des.distribution.type=tar, -Des.bundled_jdk=false]
+2021.10.07 08:07:45 INFO  es[][o.e.p.PluginsService] loaded module [analysis-common]
+2021.10.07 08:07:45 INFO  es[][o.e.p.PluginsService] loaded module [lang-painless]
+2021.10.07 08:07:45 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
+2021.10.07 08:07:45 INFO  es[][o.e.p.PluginsService] loaded module [percolator]
+2021.10.07 08:07:45 INFO  es[][o.e.p.PluginsService] loaded module [runtime-fields-common]
+2021.10.07 08:07:45 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
+2021.10.07 08:07:45 INFO  es[][o.e.p.PluginsService] no plugins loaded
+2021.10.07 08:07:45 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[/ (/dev/nvme0n1p4)]], net usable_space [74.1gb], net total_space [111.4gb], types [ext4]
+2021.10.07 08:07:45 INFO  es[][o.e.e.NodeEnvironment] heap size [512mb], compressed ordinary object pointers [true]
+2021.10.07 08:07:45 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [M-J4uyNWSymPBrcit1X4-Q], cluster name [sonarqube], roles [data_frozen, master, remote_cluster_client, data, data_content, data_hot, data_warm, data_cold, ingest]
+2021.10.07 08:07:47 INFO  es[][o.e.t.NettyAllocator] creating NettyAllocator with the following configs: [name=unpooled, suggested_max_allocation_size=256kb, factors={es.unsafe.use_unpooled_allocator=null, g1gc_enabled=true, g1gc_region_size=1mb, heap_size=512mb}]
+2021.10.07 08:07:47 INFO  es[][o.e.d.DiscoveryModule] using discovery type [zen] and seed hosts providers [settings]
+2021.10.07 08:07:48 INFO  es[][o.e.g.DanglingIndicesState] gateway.auto_import_dangling_indices is disabled, dangling indices will not be automatically detected or imported and must be managed manually
+2021.10.07 08:07:48 INFO  es[][o.e.n.Node] initialized
+2021.10.07 08:07:48 INFO  es[][o.e.n.Node] starting ...
+2021.10.07 08:07:48 INFO  es[][o.e.t.TransportService] publish_address {127.0.0.1:40165}, bound_addresses {127.0.0.1:40165}
+2021.10.07 08:07:48 WARN  es[][o.e.b.BootstrapChecks] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+2021.10.07 08:07:48 INFO  es[][o.e.c.c.Coordinator] cluster UUID [_K0b5p2YTue3LAVYjNE_3g]
+2021.10.07 08:07:48 INFO  es[][o.e.c.s.MasterService] elected-as-master ([1] nodes joined)[{sonarqube}{M-J4uyNWSymPBrcit1X4-Q}{dGx_kyI1SpC6CPIEXURwNA}{127.0.0.1}{127.0.0.1:40165}{cdfhimrsw} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 2, version: 41, delta: master node changed {previous [], current [{sonarqube}{M-J4uyNWSymPBrcit1X4-Q}{dGx_kyI1SpC6CPIEXURwNA}{127.0.0.1}{127.0.0.1:40165}{cdfhimrsw}]}
+2021.10.07 08:07:48 INFO  es[][o.e.c.s.ClusterApplierService] master node changed {previous [], current [{sonarqube}{M-J4uyNWSymPBrcit1X4-Q}{dGx_kyI1SpC6CPIEXURwNA}{127.0.0.1}{127.0.0.1:40165}{cdfhimrsw}]}, term: 2, version: 41, reason: Publication{term=2, version=41}
+2021.10.07 08:07:48 INFO  es[][o.e.h.AbstractHttpServerTransport] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2021.10.07 08:07:48 INFO  es[][o.e.n.Node] started
+2021.10.07 08:07:48 INFO  es[][o.e.g.GatewayService] recovered [7] indices into cluster_state
+2021.10.07 08:07:49 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[metadatas][0]]]).
+2021.10.07 09:52:32 WARN  es[][o.e.t.ThreadPool] timer thread slept for [22.5m/1351122ms] on absolute clock which is above the warn threshold of [5000ms]
+2021.10.07 09:52:32 WARN  es[][o.e.t.ThreadPool] timer thread slept for [6s/6015923560ns] on relative clock which is above the warn threshold of [5000ms]
+2021.10.07 13:08:27 WARN  es[][o.e.t.ThreadPool] timer thread slept for [1.8h/6801863ms] on absolute clock which is above the warn threshold of [5000ms]
+2021.10.07 13:08:27 WARN  es[][o.e.t.ThreadPool] timer thread slept for [5.5s/5536129687ns] on relative clock which is above the warn threshold of [5000ms]
+2021.10.07 21:02:19 WARN  es[][o.e.t.ThreadPool] timer thread slept for [3.7h/13642222ms] on absolute clock which is above the warn threshold of [5000ms]
+2021.10.07 21:02:19 WARN  es[][o.e.t.ThreadPool] timer thread slept for [5.4s/5421738581ns] on relative clock which is above the warn threshold of [5000ms]

@@ -1,55 +1,614 @@
-2021.10.06 10:21:03 INFO  ce[][o.s.c.t.CeWorkerImpl] Execute task | project=graphe | type=REPORT | id=AXxUsQ3u5xwST75WQp2O | submitter=admin
-2021.10.06 10:21:03 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Extract report | status=SUCCESS | time=4ms
-2021.10.06 10:21:03 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Persist scanner context | status=SUCCESS | time=3ms
-2021.10.06 10:21:03 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Propagate analysis warnings from scanner report | status=SUCCESS | time=0ms
-2021.10.06 10:21:03 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Generate analysis UUID | status=SUCCESS | time=0ms
-2021.10.06 10:21:03 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Load analysis metadata | status=SUCCESS | time=1ms
-2021.10.06 10:21:03 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Initialize | status=SUCCESS | time=0ms
-2021.10.06 10:21:03 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Build tree of components | components=6 | status=SUCCESS | time=2ms
-2021.10.06 10:21:03 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Validate project | status=SUCCESS | time=1ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Load quality profiles | status=SUCCESS | time=482ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Load Quality gate | status=SUCCESS | time=2ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Load new code period | status=SUCCESS | time=1ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Detect file moves | reportFiles=4 | dbFiles=4 | addedFiles=0 | status=SUCCESS | time=1ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Load duplications | duplications=0 | status=SUCCESS | time=0ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Compute cross project duplications | status=SUCCESS | time=0ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Compute size measures | status=SUCCESS | time=0ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Compute new coverage | status=SUCCESS | time=5ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Compute coverage measures | status=SUCCESS | time=1ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Compute comment measures | status=SUCCESS | time=0ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Compute duplication measures | status=SUCCESS | time=0ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Compute size measures on new code | status=SUCCESS | time=0ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Compute language distribution | status=SUCCESS | time=0ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Compute test measures | status=SUCCESS | time=0ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Compute complexity measures | status=SUCCESS | time=1ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Load measure computers | status=SUCCESS | time=0ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Compute Quality Profile status | status=SUCCESS | time=2ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Execute component visitors | status=SUCCESS | time=15ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Checks executed after computation of measures | status=SUCCESS | time=0ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Compute Quality Gate measures | status=SUCCESS | time=6ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Compute Quality profile measures | status=SUCCESS | time=1ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Generate Quality profile events | status=SUCCESS | time=2ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Generate Quality gate events | status=SUCCESS | time=1ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Check upgrade possibility for not analyzed code files. | status=SUCCESS | time=0ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Persist components | status=SUCCESS | time=4ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Persist analysis | status=SUCCESS | time=1ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Persist analysis properties | status=SUCCESS | time=1ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Persist measures | inserts=51 | status=SUCCESS | time=3ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Persist live measures | insertsOrUpdates=305 | status=SUCCESS | time=25ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Persist duplication data | insertsOrUpdates=0 | status=SUCCESS | time=0ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Persist new ad hoc Rules | status=SUCCESS | time=0ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Persist issues | cacheSize=0 bytes | inserts=0 | updates=0 | merged=0 | status=SUCCESS | time=1ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Persist project links | status=SUCCESS | time=0ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Persist events | status=SUCCESS | time=1ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Persist sources | status=SUCCESS | time=9ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Persist cross project duplications | status=SUCCESS | time=0ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Enable analysis | status=SUCCESS | time=1ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Update last usage date of quality profiles | status=SUCCESS | time=1ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Purge db | status=SUCCESS | time=17ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Index analysis | status=SUCCESS | time=114ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Update need issue sync for branch | status=SUCCESS | time=1ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Send issue notifications | newIssuesNotifs=0 | newIssuesDeliveries=0 | myNewIssuesNotifs=0 | myNewIssuesDeliveries=0 | changesNotifs=0 | changesDeliveries=0 | status=SUCCESS | time=1ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Publish task results | status=SUCCESS | time=0ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.s.ComputationStepExecutor] Trigger refresh of Portfolios and Applications | status=SUCCESS | time=0ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.p.a.p.PostProjectAnalysisTasksExecutor] Webhooks | globalWebhooks=0 | projectWebhooks=0 | status=SUCCESS | time=1ms
-2021.10.06 10:21:04 INFO  ce[AXxUsQ3u5xwST75WQp2O][o.s.c.t.CeWorkerImpl] Executed task | project=graphe | type=REPORT | id=AXxUsQ3u5xwST75WQp2O | submitter=admin | status=SUCCESS | time=757ms
+2021.10.07 08:07:54 INFO  ce[][o.s.p.ProcessEntryPoint] Starting ce
+2021.10.07 08:07:54 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2021.10.07 08:07:54 INFO  ce[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [http://localhost:9001]
+2021.10.07 08:07:55 INFO  ce[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2021.10.07 08:07:55 WARN  ce[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2021.10.07 08:07:55 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /home/nathanael/MASTER_S1/software-engineering/install/sonarqube
+2021.10.07 08:07:55 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2021.10.07 08:07:56 INFO  ce[][o.s.c.c.ComputeEngineContainerImpl] Running Community edition
+2021.10.07 08:07:56 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is operational
+2021.10.07 08:10:41 INFO  ce[][o.s.c.t.CeWorkerImpl] Execute task | project=graphe | type=REPORT | id=AXxZYBFkR-muSDVDVDK0 | submitter=admin
+2021.10.07 08:10:41 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Extract report | status=SUCCESS | time=10ms
+2021.10.07 08:10:41 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Persist scanner context | status=SUCCESS | time=6ms
+2021.10.07 08:10:41 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Propagate analysis warnings from scanner report | status=SUCCESS | time=20ms
+2021.10.07 08:10:41 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Generate analysis UUID | status=SUCCESS | time=0ms
+2021.10.07 08:10:41 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Load analysis metadata | status=SUCCESS | time=39ms
+2021.10.07 08:10:41 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Initialize | status=SUCCESS | time=0ms
+2021.10.07 08:10:41 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Build tree of components | components=6 | status=SUCCESS | time=22ms
+2021.10.07 08:10:41 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Validate project | status=SUCCESS | time=3ms
+2021.10.07 08:10:42 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Load quality profiles | status=SUCCESS | time=1143ms
+2021.10.07 08:10:42 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Load Quality gate | status=SUCCESS | time=12ms
+2021.10.07 08:10:42 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Load new code period | status=SUCCESS | time=6ms
+2021.10.07 08:10:42 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Detect file moves | reportFiles=4 | dbFiles=4 | addedFiles=0 | status=SUCCESS | time=5ms
+2021.10.07 08:10:42 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Load duplications | duplications=0 | status=SUCCESS | time=1ms
+2021.10.07 08:10:42 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Compute cross project duplications | status=SUCCESS | time=0ms
+2021.10.07 08:10:42 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Compute size measures | status=SUCCESS | time=9ms
+2021.10.07 08:10:42 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Compute new coverage | status=SUCCESS | time=40ms
+2021.10.07 08:10:42 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Compute coverage measures | status=SUCCESS | time=3ms
+2021.10.07 08:10:42 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Compute comment measures | status=SUCCESS | time=2ms
+2021.10.07 08:10:42 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Compute duplication measures | status=SUCCESS | time=1ms
+2021.10.07 08:10:42 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Compute size measures on new code | status=SUCCESS | time=1ms
+2021.10.07 08:10:42 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Compute language distribution | status=SUCCESS | time=9ms
+2021.10.07 08:10:42 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Compute test measures | status=SUCCESS | time=0ms
+2021.10.07 08:10:42 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Compute complexity measures | status=SUCCESS | time=1ms
+2021.10.07 08:10:42 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Load measure computers | status=SUCCESS | time=1ms
+2021.10.07 08:10:42 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Compute Quality Profile status | status=SUCCESS | time=10ms
+2021.10.07 08:10:42 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Execute component visitors | status=SUCCESS | time=68ms
+2021.10.07 08:10:42 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Checks executed after computation of measures | status=SUCCESS | time=1ms
+2021.10.07 08:10:42 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Compute Quality Gate measures | status=SUCCESS | time=10ms
+2021.10.07 08:10:42 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Compute Quality profile measures | status=SUCCESS | time=2ms
+2021.10.07 08:10:42 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Generate Quality profile events | status=SUCCESS | time=3ms
+2021.10.07 08:10:42 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Generate Quality gate events | status=SUCCESS | time=2ms
+2021.10.07 08:10:42 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Check upgrade possibility for not analyzed code files. | status=SUCCESS | time=2ms
+2021.10.07 08:10:42 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Persist components | status=SUCCESS | time=13ms
+2021.10.07 08:10:42 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Persist analysis | status=SUCCESS | time=3ms
+2021.10.07 08:10:42 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Persist analysis properties | status=SUCCESS | time=4ms
+2021.10.07 08:10:43 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Persist measures | inserts=51 | status=SUCCESS | time=21ms
+2021.10.07 08:10:43 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Persist live measures | insertsOrUpdates=307 | status=SUCCESS | time=59ms
+2021.10.07 08:10:43 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Persist duplication data | insertsOrUpdates=0 | status=SUCCESS | time=0ms
+2021.10.07 08:10:43 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Persist new ad hoc Rules | status=SUCCESS | time=0ms
+2021.10.07 08:10:43 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Persist issues | cacheSize=0 bytes | inserts=0 | updates=0 | merged=0 | status=SUCCESS | time=1ms
+2021.10.07 08:10:43 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Persist project links | status=SUCCESS | time=5ms
+2021.10.07 08:10:43 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Persist events | status=SUCCESS | time=4ms
+2021.10.07 08:10:43 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Persist sources | status=SUCCESS | time=70ms
+2021.10.07 08:10:43 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Persist cross project duplications | status=SUCCESS | time=0ms
+2021.10.07 08:10:43 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Enable analysis | status=SUCCESS | time=5ms
+2021.10.07 08:10:43 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Update last usage date of quality profiles | status=SUCCESS | time=6ms
+2021.10.07 08:10:43 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Purge db | status=SUCCESS | time=227ms
+2021.10.07 08:10:44 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Index analysis | status=SUCCESS | time=667ms
+2021.10.07 08:10:44 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Update need issue sync for branch | status=SUCCESS | time=2ms
+2021.10.07 08:10:44 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Send issue notifications | newIssuesNotifs=0 | newIssuesDeliveries=0 | myNewIssuesNotifs=0 | myNewIssuesDeliveries=0 | changesNotifs=0 | changesDeliveries=0 | status=SUCCESS | time=5ms
+2021.10.07 08:10:44 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Publish task results | status=SUCCESS | time=1ms
+2021.10.07 08:10:44 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.s.ComputationStepExecutor] Trigger refresh of Portfolios and Applications | status=SUCCESS | time=0ms
+2021.10.07 08:10:44 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.p.a.p.PostProjectAnalysisTasksExecutor] Webhooks | globalWebhooks=0 | projectWebhooks=0 | status=SUCCESS | time=7ms
+2021.10.07 08:10:44 INFO  ce[AXxZYBFkR-muSDVDVDK0][o.s.c.t.CeWorkerImpl] Executed task | project=graphe | type=REPORT | id=AXxZYBFkR-muSDVDVDK0 | submitter=admin | status=SUCCESS | time=2836ms
+2021.10.07 08:30:35 INFO  ce[][o.s.c.t.CeWorkerImpl] Execute task | project=graphe | type=REPORT | id=AXxZckirR-muSDVDVDK1 | submitter=admin
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Extract report | status=SUCCESS | time=9ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Persist scanner context | status=SUCCESS | time=3ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Propagate analysis warnings from scanner report | status=SUCCESS | time=2ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Generate analysis UUID | status=SUCCESS | time=0ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Load analysis metadata | status=SUCCESS | time=1ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Initialize | status=SUCCESS | time=0ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Build tree of components | components=6 | status=SUCCESS | time=4ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Validate project | status=SUCCESS | time=1ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Load quality profiles | status=SUCCESS | time=656ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Load Quality gate | status=SUCCESS | time=3ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Load new code period | status=SUCCESS | time=2ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Detect file moves | reportFiles=4 | dbFiles=4 | addedFiles=0 | status=SUCCESS | time=2ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Load duplications | duplications=0 | status=SUCCESS | time=0ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Compute cross project duplications | status=SUCCESS | time=0ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Compute size measures | status=SUCCESS | time=2ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Compute new coverage | status=SUCCESS | time=47ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Compute coverage measures | status=SUCCESS | time=2ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Compute comment measures | status=SUCCESS | time=0ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Compute duplication measures | status=SUCCESS | time=0ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Compute size measures on new code | status=SUCCESS | time=1ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Compute language distribution | status=SUCCESS | time=0ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Compute test measures | status=SUCCESS | time=1ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Compute complexity measures | status=SUCCESS | time=0ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Load measure computers | status=SUCCESS | time=0ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Compute Quality Profile status | status=SUCCESS | time=1ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Execute component visitors | status=SUCCESS | time=104ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Checks executed after computation of measures | status=SUCCESS | time=0ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Compute Quality Gate measures | status=SUCCESS | time=1ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Compute Quality profile measures | status=SUCCESS | time=1ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Generate Quality profile events | status=SUCCESS | time=1ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Generate Quality gate events | status=SUCCESS | time=0ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Check upgrade possibility for not analyzed code files. | status=SUCCESS | time=0ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Persist components | status=SUCCESS | time=3ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Persist analysis | status=SUCCESS | time=1ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Persist analysis properties | status=SUCCESS | time=1ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Persist measures | inserts=52 | status=SUCCESS | time=6ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Persist live measures | insertsOrUpdates=378 | status=SUCCESS | time=33ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Persist duplication data | insertsOrUpdates=0 | status=SUCCESS | time=0ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Persist new ad hoc Rules | status=SUCCESS | time=0ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Persist issues | cacheSize=56,5 kB | inserts=173 | updates=2 | merged=0 | status=SUCCESS | time=53ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Persist project links | status=SUCCESS | time=1ms
+2021.10.07 08:30:36 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Persist events | status=SUCCESS | time=2ms
+2021.10.07 08:30:37 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Persist sources | status=SUCCESS | time=41ms
+2021.10.07 08:30:37 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Persist cross project duplications | status=SUCCESS | time=0ms
+2021.10.07 08:30:37 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Enable analysis | status=SUCCESS | time=1ms
+2021.10.07 08:30:37 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Update last usage date of quality profiles | status=SUCCESS | time=3ms
+2021.10.07 08:30:37 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Purge db | status=SUCCESS | time=21ms
+2021.10.07 08:30:37 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Index analysis | status=SUCCESS | time=350ms
+2021.10.07 08:30:37 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Update need issue sync for branch | status=SUCCESS | time=0ms
+2021.10.07 08:30:37 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Send issue notifications | newIssuesNotifs=0 | newIssuesDeliveries=0 | myNewIssuesNotifs=0 | myNewIssuesDeliveries=0 | changesNotifs=0 | changesDeliveries=0 | status=SUCCESS | time=2ms
+2021.10.07 08:30:37 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Publish task results | status=SUCCESS | time=0ms
+2021.10.07 08:30:37 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.s.ComputationStepExecutor] Trigger refresh of Portfolios and Applications | status=SUCCESS | time=0ms
+2021.10.07 08:30:37 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.p.a.p.PostProjectAnalysisTasksExecutor] Webhooks | globalWebhooks=0 | projectWebhooks=0 | status=SUCCESS | time=1ms
+2021.10.07 08:30:37 INFO  ce[AXxZckirR-muSDVDVDK1][o.s.c.t.CeWorkerImpl] Executed task | project=graphe | type=REPORT | id=AXxZckirR-muSDVDVDK1 | submitter=admin | status=SUCCESS | time=1443ms
+2021.10.07 08:52:39 INFO  ce[][o.s.c.t.CeWorkerImpl] Execute task | project=graphe | type=REPORT | id=AXxZhnuOR-muSDVDVDK2 | submitter=admin
+2021.10.07 08:52:39 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Extract report | status=SUCCESS | time=7ms
+2021.10.07 08:52:39 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Persist scanner context | status=SUCCESS | time=6ms
+2021.10.07 08:52:39 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Propagate analysis warnings from scanner report | status=SUCCESS | time=2ms
+2021.10.07 08:52:39 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Generate analysis UUID | status=SUCCESS | time=0ms
+2021.10.07 08:52:39 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Load analysis metadata | status=SUCCESS | time=1ms
+2021.10.07 08:52:39 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Initialize | status=SUCCESS | time=0ms
+2021.10.07 08:52:39 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Build tree of components | components=6 | status=SUCCESS | time=2ms
+2021.10.07 08:52:39 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Validate project | status=SUCCESS | time=1ms
+2021.10.07 08:52:39 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Load quality profiles | status=SUCCESS | time=553ms
+2021.10.07 08:52:39 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Load Quality gate | status=SUCCESS | time=4ms
+2021.10.07 08:52:39 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Load new code period | status=SUCCESS | time=2ms
+2021.10.07 08:52:39 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Detect file moves | reportFiles=4 | dbFiles=4 | addedFiles=0 | status=SUCCESS | time=2ms
+2021.10.07 08:52:39 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Load duplications | duplications=0 | status=SUCCESS | time=0ms
+2021.10.07 08:52:39 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Compute cross project duplications | status=SUCCESS | time=1ms
+2021.10.07 08:52:39 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Compute size measures | status=SUCCESS | time=1ms
+2021.10.07 08:52:39 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Compute new coverage | status=SUCCESS | time=27ms
+2021.10.07 08:52:39 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Compute coverage measures | status=SUCCESS | time=1ms
+2021.10.07 08:52:39 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Compute comment measures | status=SUCCESS | time=0ms
+2021.10.07 08:52:39 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Compute duplication measures | status=SUCCESS | time=0ms
+2021.10.07 08:52:39 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Compute size measures on new code | status=SUCCESS | time=0ms
+2021.10.07 08:52:39 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Compute language distribution | status=SUCCESS | time=0ms
+2021.10.07 08:52:39 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Compute test measures | status=SUCCESS | time=0ms
+2021.10.07 08:52:39 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Compute complexity measures | status=SUCCESS | time=0ms
+2021.10.07 08:52:39 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Load measure computers | status=SUCCESS | time=0ms
+2021.10.07 08:52:39 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Compute Quality Profile status | status=SUCCESS | time=2ms
+2021.10.07 08:52:40 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Execute component visitors | status=SUCCESS | time=74ms
+2021.10.07 08:52:40 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Checks executed after computation of measures | status=SUCCESS | time=0ms
+2021.10.07 08:52:40 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Compute Quality Gate measures | status=SUCCESS | time=7ms
+2021.10.07 08:52:40 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Compute Quality profile measures | status=SUCCESS | time=1ms
+2021.10.07 08:52:40 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Generate Quality profile events | status=SUCCESS | time=2ms
+2021.10.07 08:52:40 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Generate Quality gate events | status=SUCCESS | time=1ms
+2021.10.07 08:52:40 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Check upgrade possibility for not analyzed code files. | status=SUCCESS | time=0ms
+2021.10.07 08:52:40 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Persist components | status=SUCCESS | time=3ms
+2021.10.07 08:52:40 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Persist analysis | status=SUCCESS | time=1ms
+2021.10.07 08:52:40 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Persist analysis properties | status=SUCCESS | time=1ms
+2021.10.07 08:52:40 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Persist measures | inserts=51 | status=SUCCESS | time=4ms
+2021.10.07 08:52:40 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Persist live measures | insertsOrUpdates=307 | status=SUCCESS | time=23ms
+2021.10.07 08:52:40 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Persist duplication data | insertsOrUpdates=0 | status=SUCCESS | time=0ms
+2021.10.07 08:52:40 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Persist new ad hoc Rules | status=SUCCESS | time=0ms
+2021.10.07 08:52:40 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Persist issues | cacheSize=121,4 kB | inserts=1 | updates=174 | merged=0 | status=SUCCESS | time=57ms
+2021.10.07 08:52:40 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Persist project links | status=SUCCESS | time=1ms
+2021.10.07 08:52:40 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Persist events | status=SUCCESS | time=1ms
+2021.10.07 08:52:40 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Persist sources | status=SUCCESS | time=24ms
+2021.10.07 08:52:40 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Persist cross project duplications | status=SUCCESS | time=0ms
+2021.10.07 08:52:40 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Enable analysis | status=SUCCESS | time=1ms
+2021.10.07 08:52:40 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Update last usage date of quality profiles | status=SUCCESS | time=1ms
+2021.10.07 08:52:40 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Purge db | status=SUCCESS | time=14ms
+2021.10.07 08:52:40 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Index analysis | status=SUCCESS | time=361ms
+2021.10.07 08:52:40 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Update need issue sync for branch | status=SUCCESS | time=1ms
+2021.10.07 08:52:40 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Send issue notifications | newIssuesNotifs=0 | newIssuesDeliveries=0 | myNewIssuesNotifs=0 | myNewIssuesDeliveries=0 | changesNotifs=0 | changesDeliveries=0 | status=SUCCESS | time=1ms
+2021.10.07 08:52:40 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Publish task results | status=SUCCESS | time=0ms
+2021.10.07 08:52:40 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.s.ComputationStepExecutor] Trigger refresh of Portfolios and Applications | status=SUCCESS | time=0ms
+2021.10.07 08:52:40 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.p.a.p.PostProjectAnalysisTasksExecutor] Webhooks | globalWebhooks=0 | projectWebhooks=0 | status=SUCCESS | time=2ms
+2021.10.07 08:52:40 INFO  ce[AXxZhnuOR-muSDVDVDK2][o.s.c.t.CeWorkerImpl] Executed task | project=graphe | type=REPORT | id=AXxZhnuOR-muSDVDVDK2 | submitter=admin | status=SUCCESS | time=1263ms
+2021.10.07 09:03:30 INFO  ce[][o.s.c.t.CeWorkerImpl] Execute task | project=graphe | type=REPORT | id=AXxZkG6cR-muSDVDVDK3 | submitter=admin
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Extract report | status=SUCCESS | time=4ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Persist scanner context | status=SUCCESS | time=4ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Propagate analysis warnings from scanner report | status=SUCCESS | time=1ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Generate analysis UUID | status=SUCCESS | time=0ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Load analysis metadata | status=SUCCESS | time=1ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Initialize | status=SUCCESS | time=0ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Build tree of components | components=6 | status=SUCCESS | time=3ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Validate project | status=SUCCESS | time=1ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Load quality profiles | status=SUCCESS | time=558ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Load Quality gate | status=SUCCESS | time=1ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Load new code period | status=SUCCESS | time=1ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Detect file moves | reportFiles=4 | dbFiles=4 | addedFiles=0 | status=SUCCESS | time=10ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Load duplications | duplications=0 | status=SUCCESS | time=0ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Compute cross project duplications | status=SUCCESS | time=0ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Compute size measures | status=SUCCESS | time=1ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Compute new coverage | status=SUCCESS | time=11ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Compute coverage measures | status=SUCCESS | time=2ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Compute comment measures | status=SUCCESS | time=0ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Compute duplication measures | status=SUCCESS | time=1ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Compute size measures on new code | status=SUCCESS | time=0ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Compute language distribution | status=SUCCESS | time=1ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Compute test measures | status=SUCCESS | time=0ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Compute complexity measures | status=SUCCESS | time=0ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Load measure computers | status=SUCCESS | time=0ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Compute Quality Profile status | status=SUCCESS | time=3ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Execute component visitors | status=SUCCESS | time=25ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Checks executed after computation of measures | status=SUCCESS | time=0ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Compute Quality Gate measures | status=SUCCESS | time=8ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Compute Quality profile measures | status=SUCCESS | time=0ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Generate Quality profile events | status=SUCCESS | time=1ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Generate Quality gate events | status=SUCCESS | time=1ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Check upgrade possibility for not analyzed code files. | status=SUCCESS | time=0ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Persist components | status=SUCCESS | time=3ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Persist analysis | status=SUCCESS | time=0ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Persist analysis properties | status=SUCCESS | time=1ms
+2021.10.07 09:03:30 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Persist measures | inserts=51 | status=SUCCESS | time=3ms
+2021.10.07 09:03:31 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Persist live measures | insertsOrUpdates=307 | status=SUCCESS | time=30ms
+2021.10.07 09:03:31 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Persist duplication data | insertsOrUpdates=0 | status=SUCCESS | time=0ms
+2021.10.07 09:03:31 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Persist new ad hoc Rules | status=SUCCESS | time=0ms
+2021.10.07 09:03:31 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Persist issues | cacheSize=0 bytes | inserts=0 | updates=0 | merged=0 | status=SUCCESS | time=0ms
+2021.10.07 09:03:31 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Persist project links | status=SUCCESS | time=1ms
+2021.10.07 09:03:31 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Persist events | status=SUCCESS | time=1ms
+2021.10.07 09:03:31 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Persist sources | status=SUCCESS | time=21ms
+2021.10.07 09:03:31 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Persist cross project duplications | status=SUCCESS | time=0ms
+2021.10.07 09:03:31 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Enable analysis | status=SUCCESS | time=1ms
+2021.10.07 09:03:31 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Update last usage date of quality profiles | status=SUCCESS | time=1ms
+2021.10.07 09:03:31 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Purge db | status=SUCCESS | time=24ms
+2021.10.07 09:03:31 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Index analysis | status=SUCCESS | time=207ms
+2021.10.07 09:03:31 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Update need issue sync for branch | status=SUCCESS | time=0ms
+2021.10.07 09:03:31 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Send issue notifications | newIssuesNotifs=0 | newIssuesDeliveries=0 | myNewIssuesNotifs=0 | myNewIssuesDeliveries=0 | changesNotifs=0 | changesDeliveries=0 | status=SUCCESS | time=1ms
+2021.10.07 09:03:31 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Publish task results | status=SUCCESS | time=0ms
+2021.10.07 09:03:31 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.s.ComputationStepExecutor] Trigger refresh of Portfolios and Applications | status=SUCCESS | time=0ms
+2021.10.07 09:03:31 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.p.a.p.PostProjectAnalysisTasksExecutor] Webhooks | globalWebhooks=0 | projectWebhooks=0 | status=SUCCESS | time=1ms
+2021.10.07 09:03:31 INFO  ce[AXxZkG6cR-muSDVDVDK3][o.s.c.t.CeWorkerImpl] Executed task | project=graphe | type=REPORT | id=AXxZkG6cR-muSDVDVDK3 | submitter=admin | status=SUCCESS | time=972ms
+2021.10.07 09:10:52 INFO  ce[][o.s.c.t.CeWorkerImpl] Execute task | project=graphe | type=REPORT | id=AXxZlyhnR-muSDVDVDK4 | submitter=admin
+2021.10.07 09:10:52 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Extract report | status=SUCCESS | time=5ms
+2021.10.07 09:10:52 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Persist scanner context | status=SUCCESS | time=2ms
+2021.10.07 09:10:52 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Propagate analysis warnings from scanner report | status=SUCCESS | time=1ms
+2021.10.07 09:10:52 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Generate analysis UUID | status=SUCCESS | time=0ms
+2021.10.07 09:10:52 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Load analysis metadata | status=SUCCESS | time=1ms
+2021.10.07 09:10:52 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Initialize | status=SUCCESS | time=0ms
+2021.10.07 09:10:52 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Build tree of components | components=6 | status=SUCCESS | time=2ms
+2021.10.07 09:10:52 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Validate project | status=SUCCESS | time=0ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Load quality profiles | status=SUCCESS | time=574ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Load Quality gate | status=SUCCESS | time=2ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Load new code period | status=SUCCESS | time=5ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Detect file moves | reportFiles=4 | dbFiles=4 | addedFiles=0 | status=SUCCESS | time=1ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Load duplications | duplications=0 | status=SUCCESS | time=1ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Compute cross project duplications | status=SUCCESS | time=0ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Compute size measures | status=SUCCESS | time=1ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Compute new coverage | status=SUCCESS | time=8ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Compute coverage measures | status=SUCCESS | time=1ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Compute comment measures | status=SUCCESS | time=0ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Compute duplication measures | status=SUCCESS | time=1ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Compute size measures on new code | status=SUCCESS | time=0ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Compute language distribution | status=SUCCESS | time=1ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Compute test measures | status=SUCCESS | time=0ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Compute complexity measures | status=SUCCESS | time=0ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Load measure computers | status=SUCCESS | time=0ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Compute Quality Profile status | status=SUCCESS | time=2ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Execute component visitors | status=SUCCESS | time=13ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Checks executed after computation of measures | status=SUCCESS | time=0ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Compute Quality Gate measures | status=SUCCESS | time=1ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Compute Quality profile measures | status=SUCCESS | time=0ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Generate Quality profile events | status=SUCCESS | time=1ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Generate Quality gate events | status=SUCCESS | time=1ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Check upgrade possibility for not analyzed code files. | status=SUCCESS | time=0ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Persist components | status=SUCCESS | time=2ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Persist analysis | status=SUCCESS | time=0ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Persist analysis properties | status=SUCCESS | time=1ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Persist measures | inserts=51 | status=SUCCESS | time=3ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Persist live measures | insertsOrUpdates=307 | status=SUCCESS | time=19ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Persist duplication data | insertsOrUpdates=0 | status=SUCCESS | time=0ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Persist new ad hoc Rules | status=SUCCESS | time=0ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Persist issues | cacheSize=1,5 kB | inserts=0 | updates=2 | merged=0 | status=SUCCESS | time=3ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Persist project links | status=SUCCESS | time=1ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Persist events | status=SUCCESS | time=1ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Persist sources | status=SUCCESS | time=10ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Persist cross project duplications | status=SUCCESS | time=0ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Enable analysis | status=SUCCESS | time=1ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Update last usage date of quality profiles | status=SUCCESS | time=2ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Purge db | status=SUCCESS | time=12ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Index analysis | status=SUCCESS | time=199ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Update need issue sync for branch | status=SUCCESS | time=1ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Send issue notifications | newIssuesNotifs=0 | newIssuesDeliveries=0 | myNewIssuesNotifs=0 | myNewIssuesDeliveries=0 | changesNotifs=0 | changesDeliveries=0 | status=SUCCESS | time=1ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Publish task results | status=SUCCESS | time=0ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.s.ComputationStepExecutor] Trigger refresh of Portfolios and Applications | status=SUCCESS | time=0ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.p.a.p.PostProjectAnalysisTasksExecutor] Webhooks | globalWebhooks=0 | projectWebhooks=0 | status=SUCCESS | time=1ms
+2021.10.07 09:10:53 INFO  ce[AXxZlyhnR-muSDVDVDK4][o.s.c.t.CeWorkerImpl] Executed task | project=graphe | type=REPORT | id=AXxZlyhnR-muSDVDVDK4 | submitter=admin | status=SUCCESS | time=922ms
+2021.10.07 09:12:59 INFO  ce[][o.s.c.t.CeWorkerImpl] Execute task | project=graphe | type=REPORT | id=AXxZmRd0R-muSDVDVDK5 | submitter=admin
+2021.10.07 09:12:59 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Extract report | status=SUCCESS | time=11ms
+2021.10.07 09:12:59 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Persist scanner context | status=SUCCESS | time=8ms
+2021.10.07 09:12:59 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Propagate analysis warnings from scanner report | status=SUCCESS | time=1ms
+2021.10.07 09:12:59 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Generate analysis UUID | status=SUCCESS | time=0ms
+2021.10.07 09:12:59 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Load analysis metadata | status=SUCCESS | time=2ms
+2021.10.07 09:12:59 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Initialize | status=SUCCESS | time=0ms
+2021.10.07 09:12:59 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Build tree of components | components=6 | status=SUCCESS | time=4ms
+2021.10.07 09:12:59 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Validate project | status=SUCCESS | time=1ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Load quality profiles | status=SUCCESS | time=664ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Load Quality gate | status=SUCCESS | time=3ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Load new code period | status=SUCCESS | time=3ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Detect file moves | reportFiles=4 | dbFiles=4 | addedFiles=0 | status=SUCCESS | time=1ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Load duplications | duplications=0 | status=SUCCESS | time=0ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Compute cross project duplications | status=SUCCESS | time=0ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Compute size measures | status=SUCCESS | time=1ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Compute new coverage | status=SUCCESS | time=17ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Compute coverage measures | status=SUCCESS | time=0ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Compute comment measures | status=SUCCESS | time=1ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Compute duplication measures | status=SUCCESS | time=0ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Compute size measures on new code | status=SUCCESS | time=0ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Compute language distribution | status=SUCCESS | time=1ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Compute test measures | status=SUCCESS | time=0ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Compute complexity measures | status=SUCCESS | time=0ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Load measure computers | status=SUCCESS | time=0ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Compute Quality Profile status | status=SUCCESS | time=3ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Execute component visitors | status=SUCCESS | time=97ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Checks executed after computation of measures | status=SUCCESS | time=0ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Compute Quality Gate measures | status=SUCCESS | time=3ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Compute Quality profile measures | status=SUCCESS | time=1ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Generate Quality profile events | status=SUCCESS | time=1ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Generate Quality gate events | status=SUCCESS | time=1ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Check upgrade possibility for not analyzed code files. | status=SUCCESS | time=0ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Persist components | status=SUCCESS | time=4ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Persist analysis | status=SUCCESS | time=0ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Persist analysis properties | status=SUCCESS | time=0ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Persist measures | inserts=52 | status=SUCCESS | time=15ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Persist live measures | insertsOrUpdates=378 | status=SUCCESS | time=57ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Persist duplication data | insertsOrUpdates=0 | status=SUCCESS | time=0ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Persist new ad hoc Rules | status=SUCCESS | time=0ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Persist issues | cacheSize=111,6 kB | inserts=5 | updates=170 | merged=0 | status=SUCCESS | time=58ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Persist project links | status=SUCCESS | time=1ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Persist events | status=SUCCESS | time=1ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Persist sources | status=SUCCESS | time=15ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Persist cross project duplications | status=SUCCESS | time=0ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Enable analysis | status=SUCCESS | time=2ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Update last usage date of quality profiles | status=SUCCESS | time=1ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Purge db | status=SUCCESS | time=16ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Index analysis | status=SUCCESS | time=244ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Update need issue sync for branch | status=SUCCESS | time=0ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Send issue notifications | newIssuesNotifs=0 | newIssuesDeliveries=0 | myNewIssuesNotifs=0 | myNewIssuesDeliveries=0 | changesNotifs=0 | changesDeliveries=0 | status=SUCCESS | time=1ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Publish task results | status=SUCCESS | time=0ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.s.ComputationStepExecutor] Trigger refresh of Portfolios and Applications | status=SUCCESS | time=0ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.p.a.p.PostProjectAnalysisTasksExecutor] Webhooks | globalWebhooks=0 | projectWebhooks=0 | status=SUCCESS | time=1ms
+2021.10.07 09:13:00 INFO  ce[AXxZmRd0R-muSDVDVDK5][o.s.c.t.CeWorkerImpl] Executed task | project=graphe | type=REPORT | id=AXxZmRd0R-muSDVDVDK5 | submitter=admin | status=SUCCESS | time=1302ms
+2021.10.07 09:14:05 INFO  ce[][o.s.c.t.CeWorkerImpl] Execute task | project=graphe | type=REPORT | id=AXxZmh2WR-muSDVDVDK6 | submitter=admin
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Extract report | status=SUCCESS | time=10ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Persist scanner context | status=SUCCESS | time=3ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Propagate analysis warnings from scanner report | status=SUCCESS | time=1ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Generate analysis UUID | status=SUCCESS | time=0ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Load analysis metadata | status=SUCCESS | time=2ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Initialize | status=SUCCESS | time=0ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Build tree of components | components=6 | status=SUCCESS | time=3ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Validate project | status=SUCCESS | time=1ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Load quality profiles | status=SUCCESS | time=506ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Load Quality gate | status=SUCCESS | time=2ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Load new code period | status=SUCCESS | time=1ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Detect file moves | reportFiles=4 | dbFiles=4 | addedFiles=0 | status=SUCCESS | time=1ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Load duplications | duplications=0 | status=SUCCESS | time=0ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Compute cross project duplications | status=SUCCESS | time=0ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Compute size measures | status=SUCCESS | time=5ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Compute new coverage | status=SUCCESS | time=13ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Compute coverage measures | status=SUCCESS | time=1ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Compute comment measures | status=SUCCESS | time=0ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Compute duplication measures | status=SUCCESS | time=0ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Compute size measures on new code | status=SUCCESS | time=1ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Compute language distribution | status=SUCCESS | time=0ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Compute test measures | status=SUCCESS | time=0ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Compute complexity measures | status=SUCCESS | time=1ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Load measure computers | status=SUCCESS | time=0ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Compute Quality Profile status | status=SUCCESS | time=2ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Execute component visitors | status=SUCCESS | time=44ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Checks executed after computation of measures | status=SUCCESS | time=0ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Compute Quality Gate measures | status=SUCCESS | time=1ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Compute Quality profile measures | status=SUCCESS | time=0ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Generate Quality profile events | status=SUCCESS | time=1ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Generate Quality gate events | status=SUCCESS | time=0ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Check upgrade possibility for not analyzed code files. | status=SUCCESS | time=0ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Persist components | status=SUCCESS | time=2ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Persist analysis | status=SUCCESS | time=0ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Persist analysis properties | status=SUCCESS | time=1ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Persist measures | inserts=51 | status=SUCCESS | time=2ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Persist live measures | insertsOrUpdates=307 | status=SUCCESS | time=17ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Persist duplication data | insertsOrUpdates=0 | status=SUCCESS | time=0ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Persist new ad hoc Rules | status=SUCCESS | time=0ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Persist issues | cacheSize=121,7 kB | inserts=0 | updates=175 | merged=0 | status=SUCCESS | time=53ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Persist project links | status=SUCCESS | time=1ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Persist events | status=SUCCESS | time=1ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Persist sources | status=SUCCESS | time=13ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Persist cross project duplications | status=SUCCESS | time=0ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Enable analysis | status=SUCCESS | time=1ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Update last usage date of quality profiles | status=SUCCESS | time=1ms
+2021.10.07 09:14:05 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Purge db | status=SUCCESS | time=9ms
+2021.10.07 09:14:06 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Index analysis | status=SUCCESS | time=164ms
+2021.10.07 09:14:06 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Update need issue sync for branch | status=SUCCESS | time=1ms
+2021.10.07 09:14:06 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Send issue notifications | newIssuesNotifs=0 | newIssuesDeliveries=0 | myNewIssuesNotifs=0 | myNewIssuesDeliveries=0 | changesNotifs=0 | changesDeliveries=0 | status=SUCCESS | time=1ms
+2021.10.07 09:14:06 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Publish task results | status=SUCCESS | time=0ms
+2021.10.07 09:14:06 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.s.ComputationStepExecutor] Trigger refresh of Portfolios and Applications | status=SUCCESS | time=0ms
+2021.10.07 09:14:06 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.p.a.p.PostProjectAnalysisTasksExecutor] Webhooks | globalWebhooks=0 | projectWebhooks=0 | status=SUCCESS | time=1ms
+2021.10.07 09:14:06 INFO  ce[AXxZmh2WR-muSDVDVDK6][o.s.c.t.CeWorkerImpl] Executed task | project=graphe | type=REPORT | id=AXxZmh2WR-muSDVDVDK6 | submitter=admin | status=SUCCESS | time=911ms
+2021.10.07 09:25:53 INFO  ce[][o.s.c.t.CeWorkerImpl] Execute task | project=graphe | type=REPORT | id=AXxZpOu5R-muSDVDVDK7 | submitter=admin
+2021.10.07 09:25:53 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Extract report | status=SUCCESS | time=3ms
+2021.10.07 09:25:53 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Persist scanner context | status=SUCCESS | time=4ms
+2021.10.07 09:25:53 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Propagate analysis warnings from scanner report | status=SUCCESS | time=1ms
+2021.10.07 09:25:53 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Generate analysis UUID | status=SUCCESS | time=0ms
+2021.10.07 09:25:53 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Load analysis metadata | status=SUCCESS | time=1ms
+2021.10.07 09:25:53 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Initialize | status=SUCCESS | time=0ms
+2021.10.07 09:25:53 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Build tree of components | components=6 | status=SUCCESS | time=2ms
+2021.10.07 09:25:53 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Validate project | status=SUCCESS | time=1ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Load quality profiles | status=SUCCESS | time=573ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Load Quality gate | status=SUCCESS | time=2ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Load new code period | status=SUCCESS | time=2ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Detect file moves | reportFiles=4 | dbFiles=4 | addedFiles=0 | status=SUCCESS | time=2ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Load duplications | duplications=0 | status=SUCCESS | time=0ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Compute cross project duplications | status=SUCCESS | time=0ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Compute size measures | status=SUCCESS | time=1ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Compute new coverage | status=SUCCESS | time=9ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Compute coverage measures | status=SUCCESS | time=1ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Compute comment measures | status=SUCCESS | time=1ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Compute duplication measures | status=SUCCESS | time=0ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Compute size measures on new code | status=SUCCESS | time=1ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Compute language distribution | status=SUCCESS | time=0ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Compute test measures | status=SUCCESS | time=0ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Compute complexity measures | status=SUCCESS | time=0ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Load measure computers | status=SUCCESS | time=0ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Compute Quality Profile status | status=SUCCESS | time=2ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Execute component visitors | status=SUCCESS | time=40ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Checks executed after computation of measures | status=SUCCESS | time=0ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Compute Quality Gate measures | status=SUCCESS | time=5ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Compute Quality profile measures | status=SUCCESS | time=0ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Generate Quality profile events | status=SUCCESS | time=2ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Generate Quality gate events | status=SUCCESS | time=1ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Check upgrade possibility for not analyzed code files. | status=SUCCESS | time=0ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Persist components | status=SUCCESS | time=2ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Persist analysis | status=SUCCESS | time=1ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Persist analysis properties | status=SUCCESS | time=1ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Persist measures | inserts=51 | status=SUCCESS | time=4ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Persist live measures | insertsOrUpdates=307 | status=SUCCESS | time=21ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Persist duplication data | insertsOrUpdates=0 | status=SUCCESS | time=0ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Persist new ad hoc Rules | status=SUCCESS | time=0ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Persist issues | cacheSize=2,3 kB | inserts=1 | updates=2 | merged=0 | status=SUCCESS | time=4ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Persist project links | status=SUCCESS | time=1ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Persist events | status=SUCCESS | time=1ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Persist sources | status=SUCCESS | time=12ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Persist cross project duplications | status=SUCCESS | time=0ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Enable analysis | status=SUCCESS | time=1ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Update last usage date of quality profiles | status=SUCCESS | time=2ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Purge db | status=SUCCESS | time=15ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Index analysis | status=SUCCESS | time=171ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Update need issue sync for branch | status=SUCCESS | time=1ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Send issue notifications | newIssuesNotifs=0 | newIssuesDeliveries=0 | myNewIssuesNotifs=0 | myNewIssuesDeliveries=0 | changesNotifs=0 | changesDeliveries=0 | status=SUCCESS | time=1ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Publish task results | status=SUCCESS | time=0ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.s.ComputationStepExecutor] Trigger refresh of Portfolios and Applications | status=SUCCESS | time=0ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.p.a.p.PostProjectAnalysisTasksExecutor] Webhooks | globalWebhooks=0 | projectWebhooks=0 | status=SUCCESS | time=1ms
+2021.10.07 09:25:54 INFO  ce[AXxZpOu5R-muSDVDVDK7][o.s.c.t.CeWorkerImpl] Executed task | project=graphe | type=REPORT | id=AXxZpOu5R-muSDVDVDK7 | submitter=admin | status=SUCCESS | time=942ms
+2021.10.07 09:27:10 INFO  ce[][o.s.c.t.CeWorkerImpl] Execute task | project=graphe | type=REPORT | id=AXxZphkwR-muSDVDVDK8 | submitter=admin
+2021.10.07 09:27:10 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Extract report | status=SUCCESS | time=3ms
+2021.10.07 09:27:10 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Persist scanner context | status=SUCCESS | time=4ms
+2021.10.07 09:27:10 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Propagate analysis warnings from scanner report | status=SUCCESS | time=0ms
+2021.10.07 09:27:10 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Generate analysis UUID | status=SUCCESS | time=0ms
+2021.10.07 09:27:10 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Load analysis metadata | status=SUCCESS | time=1ms
+2021.10.07 09:27:10 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Initialize | status=SUCCESS | time=0ms
+2021.10.07 09:27:10 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Build tree of components | components=6 | status=SUCCESS | time=2ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Validate project | status=SUCCESS | time=1ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Load quality profiles | status=SUCCESS | time=557ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Load Quality gate | status=SUCCESS | time=1ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Load new code period | status=SUCCESS | time=1ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Detect file moves | reportFiles=4 | dbFiles=4 | addedFiles=0 | status=SUCCESS | time=1ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Load duplications | duplications=0 | status=SUCCESS | time=0ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Compute cross project duplications | status=SUCCESS | time=0ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Compute size measures | status=SUCCESS | time=0ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Compute new coverage | status=SUCCESS | time=10ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Compute coverage measures | status=SUCCESS | time=1ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Compute comment measures | status=SUCCESS | time=0ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Compute duplication measures | status=SUCCESS | time=0ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Compute size measures on new code | status=SUCCESS | time=0ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Compute language distribution | status=SUCCESS | time=0ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Compute test measures | status=SUCCESS | time=0ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Compute complexity measures | status=SUCCESS | time=0ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Load measure computers | status=SUCCESS | time=1ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Compute Quality Profile status | status=SUCCESS | time=2ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Execute component visitors | status=SUCCESS | time=9ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Checks executed after computation of measures | status=SUCCESS | time=0ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Compute Quality Gate measures | status=SUCCESS | time=1ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Compute Quality profile measures | status=SUCCESS | time=0ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Generate Quality profile events | status=SUCCESS | time=2ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Generate Quality gate events | status=SUCCESS | time=1ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Check upgrade possibility for not analyzed code files. | status=SUCCESS | time=0ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Persist components | status=SUCCESS | time=2ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Persist analysis | status=SUCCESS | time=1ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Persist analysis properties | status=SUCCESS | time=0ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Persist measures | inserts=51 | status=SUCCESS | time=4ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Persist live measures | insertsOrUpdates=307 | status=SUCCESS | time=20ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Persist duplication data | insertsOrUpdates=0 | status=SUCCESS | time=0ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Persist new ad hoc Rules | status=SUCCESS | time=0ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Persist issues | cacheSize=927 bytes | inserts=0 | updates=1 | merged=0 | status=SUCCESS | time=2ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Persist project links | status=SUCCESS | time=0ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Persist events | status=SUCCESS | time=1ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Persist sources | status=SUCCESS | time=8ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Persist cross project duplications | status=SUCCESS | time=0ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Enable analysis | status=SUCCESS | time=1ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Update last usage date of quality profiles | status=SUCCESS | time=1ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Purge db | status=SUCCESS | time=10ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Index analysis | status=SUCCESS | time=179ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Update need issue sync for branch | status=SUCCESS | time=1ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Send issue notifications | newIssuesNotifs=0 | newIssuesDeliveries=0 | myNewIssuesNotifs=0 | myNewIssuesDeliveries=0 | changesNotifs=0 | changesDeliveries=0 | status=SUCCESS | time=0ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Publish task results | status=SUCCESS | time=0ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.s.ComputationStepExecutor] Trigger refresh of Portfolios and Applications | status=SUCCESS | time=0ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.p.a.p.PostProjectAnalysisTasksExecutor] Webhooks | globalWebhooks=0 | projectWebhooks=0 | status=SUCCESS | time=1ms
+2021.10.07 09:27:11 INFO  ce[AXxZphkwR-muSDVDVDK8][o.s.c.t.CeWorkerImpl] Executed task | project=graphe | type=REPORT | id=AXxZphkwR-muSDVDVDK8 | submitter=admin | status=SUCCESS | time=863ms
+2021.10.07 09:28:03 INFO  ce[][o.s.c.t.CeWorkerImpl] Execute task | project=graphe | type=REPORT | id=AXxZpuZaR-muSDVDVDK9 | submitter=admin
+2021.10.07 09:28:03 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Extract report | status=SUCCESS | time=3ms
+2021.10.07 09:28:03 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Persist scanner context | status=SUCCESS | time=4ms
+2021.10.07 09:28:03 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Propagate analysis warnings from scanner report | status=SUCCESS | time=0ms
+2021.10.07 09:28:03 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Generate analysis UUID | status=SUCCESS | time=0ms
+2021.10.07 09:28:03 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Load analysis metadata | status=SUCCESS | time=1ms
+2021.10.07 09:28:03 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Initialize | status=SUCCESS | time=0ms
+2021.10.07 09:28:03 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Build tree of components | components=6 | status=SUCCESS | time=2ms
+2021.10.07 09:28:03 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Validate project | status=SUCCESS | time=1ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Load quality profiles | status=SUCCESS | time=492ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Load Quality gate | status=SUCCESS | time=1ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Load new code period | status=SUCCESS | time=1ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Detect file moves | reportFiles=4 | dbFiles=4 | addedFiles=0 | status=SUCCESS | time=0ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Load duplications | duplications=0 | status=SUCCESS | time=0ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Compute cross project duplications | status=SUCCESS | time=0ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Compute size measures | status=SUCCESS | time=1ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Compute new coverage | status=SUCCESS | time=5ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Compute coverage measures | status=SUCCESS | time=1ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Compute comment measures | status=SUCCESS | time=0ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Compute duplication measures | status=SUCCESS | time=0ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Compute size measures on new code | status=SUCCESS | time=1ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Compute language distribution | status=SUCCESS | time=0ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Compute test measures | status=SUCCESS | time=0ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Compute complexity measures | status=SUCCESS | time=0ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Load measure computers | status=SUCCESS | time=0ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Compute Quality Profile status | status=SUCCESS | time=2ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Execute component visitors | status=SUCCESS | time=7ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Checks executed after computation of measures | status=SUCCESS | time=0ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Compute Quality Gate measures | status=SUCCESS | time=0ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Compute Quality profile measures | status=SUCCESS | time=0ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Generate Quality profile events | status=SUCCESS | time=1ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Generate Quality gate events | status=SUCCESS | time=1ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Check upgrade possibility for not analyzed code files. | status=SUCCESS | time=0ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Persist components | status=SUCCESS | time=4ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Persist analysis | status=SUCCESS | time=0ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Persist analysis properties | status=SUCCESS | time=0ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Persist measures | inserts=51 | status=SUCCESS | time=3ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Persist live measures | insertsOrUpdates=296 | status=SUCCESS | time=26ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Persist duplication data | insertsOrUpdates=0 | status=SUCCESS | time=0ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Persist new ad hoc Rules | status=SUCCESS | time=0ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Persist issues | cacheSize=1,1 kB | inserts=0 | updates=1 | merged=0 | status=SUCCESS | time=2ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Persist project links | status=SUCCESS | time=1ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Persist events | status=SUCCESS | time=1ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Persist sources | status=SUCCESS | time=7ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Persist cross project duplications | status=SUCCESS | time=0ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Enable analysis | status=SUCCESS | time=1ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Update last usage date of quality profiles | status=SUCCESS | time=1ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Purge db | status=SUCCESS | time=8ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Index analysis | status=SUCCESS | time=149ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Update need issue sync for branch | status=SUCCESS | time=0ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Send issue notifications | newIssuesNotifs=0 | newIssuesDeliveries=0 | myNewIssuesNotifs=0 | myNewIssuesDeliveries=0 | changesNotifs=0 | changesDeliveries=0 | status=SUCCESS | time=0ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Publish task results | status=SUCCESS | time=0ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.s.ComputationStepExecutor] Trigger refresh of Portfolios and Applications | status=SUCCESS | time=0ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.p.a.p.PostProjectAnalysisTasksExecutor] Webhooks | globalWebhooks=0 | projectWebhooks=0 | status=SUCCESS | time=1ms
+2021.10.07 09:28:04 INFO  ce[AXxZpuZaR-muSDVDVDK9][o.s.c.t.CeWorkerImpl] Executed task | project=graphe | type=REPORT | id=AXxZpuZaR-muSDVDVDK9 | submitter=admin | status=SUCCESS | time=761ms
+2021.10.07 10:11:32 INFO  ce[][o.s.c.t.CeWorkerImpl] Execute task | project=graphe | type=REPORT | id=AXxZzrapR-muSDVDVDK- | submitter=admin
+2021.10.07 10:11:32 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Extract report | status=SUCCESS | time=10ms
+2021.10.07 10:11:32 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Persist scanner context | status=SUCCESS | time=11ms
+2021.10.07 10:11:32 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Propagate analysis warnings from scanner report | status=SUCCESS | time=2ms
+2021.10.07 10:11:32 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Generate analysis UUID | status=SUCCESS | time=0ms
+2021.10.07 10:11:32 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Load analysis metadata | status=SUCCESS | time=1ms
+2021.10.07 10:11:32 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Initialize | status=SUCCESS | time=0ms
+2021.10.07 10:11:32 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Build tree of components | components=6 | status=SUCCESS | time=2ms
+2021.10.07 10:11:32 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Validate project | status=SUCCESS | time=1ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Load quality profiles | status=SUCCESS | time=499ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Load Quality gate | status=SUCCESS | time=1ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Load new code period | status=SUCCESS | time=1ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Detect file moves | reportFiles=4 | dbFiles=4 | addedFiles=0 | status=SUCCESS | time=0ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Load duplications | duplications=0 | status=SUCCESS | time=0ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Compute cross project duplications | status=SUCCESS | time=0ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Compute size measures | status=SUCCESS | time=1ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Compute new coverage | status=SUCCESS | time=5ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Compute coverage measures | status=SUCCESS | time=1ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Compute comment measures | status=SUCCESS | time=0ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Compute duplication measures | status=SUCCESS | time=0ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Compute size measures on new code | status=SUCCESS | time=0ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Compute language distribution | status=SUCCESS | time=1ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Compute test measures | status=SUCCESS | time=0ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Compute complexity measures | status=SUCCESS | time=0ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Load measure computers | status=SUCCESS | time=0ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Compute Quality Profile status | status=SUCCESS | time=3ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Execute component visitors | status=SUCCESS | time=7ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Checks executed after computation of measures | status=SUCCESS | time=0ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Compute Quality Gate measures | status=SUCCESS | time=5ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Compute Quality profile measures | status=SUCCESS | time=1ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Generate Quality profile events | status=SUCCESS | time=2ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Generate Quality gate events | status=SUCCESS | time=1ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Check upgrade possibility for not analyzed code files. | status=SUCCESS | time=0ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Persist components | status=SUCCESS | time=2ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Persist analysis | status=SUCCESS | time=0ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Persist analysis properties | status=SUCCESS | time=0ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Persist measures | inserts=51 | status=SUCCESS | time=3ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Persist live measures | insertsOrUpdates=296 | status=SUCCESS | time=18ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Persist duplication data | insertsOrUpdates=0 | status=SUCCESS | time=0ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Persist new ad hoc Rules | status=SUCCESS | time=0ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Persist issues | cacheSize=0 bytes | inserts=0 | updates=0 | merged=0 | status=SUCCESS | time=0ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Persist project links | status=SUCCESS | time=1ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Persist events | status=SUCCESS | time=0ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Persist sources | status=SUCCESS | time=6ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Persist cross project duplications | status=SUCCESS | time=0ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Enable analysis | status=SUCCESS | time=1ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Update last usage date of quality profiles | status=SUCCESS | time=1ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Purge db | status=SUCCESS | time=12ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Index analysis | status=SUCCESS | time=171ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Update need issue sync for branch | status=SUCCESS | time=1ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Send issue notifications | newIssuesNotifs=0 | newIssuesDeliveries=0 | myNewIssuesNotifs=0 | myNewIssuesDeliveries=0 | changesNotifs=0 | changesDeliveries=0 | status=SUCCESS | time=2ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Publish task results | status=SUCCESS | time=0ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.s.ComputationStepExecutor] Trigger refresh of Portfolios and Applications | status=SUCCESS | time=0ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.p.a.p.PostProjectAnalysisTasksExecutor] Webhooks | globalWebhooks=0 | projectWebhooks=0 | status=SUCCESS | time=2ms
+2021.10.07 10:11:33 INFO  ce[AXxZzrapR-muSDVDVDK-][o.s.c.t.CeWorkerImpl] Executed task | project=graphe | type=REPORT | id=AXxZzrapR-muSDVDVDK- | submitter=admin | status=SUCCESS | time=817ms

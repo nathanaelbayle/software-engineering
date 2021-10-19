@@ -8,7 +8,7 @@ package graphe;
 
 /*****************************************************/
 
-public class Arc {
+public class Arc implements Comparable<Object>{
     /** Node origine de l'Arc **/
     private Node from;
     /** Node de destination de l'Arc **/
@@ -20,7 +20,7 @@ public class Arc {
     private String label;
 
     /** 
-     * constructeurs
+     * Constructeur
      * 
      * @param from Node de départ
      * @param to   Node d'arrivé
@@ -42,7 +42,7 @@ public class Arc {
     }
 
     /** 
-     * accesseur du Node extremite 
+     * Accesseur du Node extremite 
      * @return attribut to
      **/
     public Node to() {
@@ -50,7 +50,7 @@ public class Arc {
     }
 
     /** 
-     * méthodes d'accès aux attributs
+     * Méthodes d'accès aux attributs
      * @return attribut value 
      **/
     public double value() {
@@ -63,7 +63,7 @@ public class Arc {
     }
 
     /** 
-     * méthodes d'accès a un attribut 
+     * Méthodes d'accès a un attribut 
      * @return attribut color
      **/
     public String color() {
@@ -79,7 +79,7 @@ public class Arc {
     }
 
     /** 
-     * méthodes d'accès a un attribut 
+     * Méthodes d'accès a un attribut 
      * @return attribut label
      **/
     public String label() {
@@ -95,12 +95,13 @@ public class Arc {
     }
 
     /**
-     * methode de comparaison necessaire pour implementer Comparable Permet de
+     * Methode de comparaison necessaire pour implementer Comparable Permet de
      * rechercher un Arc dans un TreeSet
      * 
      * @param o un objet Arc
      **/
-    public int compareTo(Arc o) {
+    public int compareTo(Object obj) {
+    	Arc o = (Arc) obj;
         if (this.from.id() == o.from().id() && this.to.id() == o.to().id())
             return 0;
         if (this.from.id() < o.from().id() || this.from.id() == o.from().id() && this.to.id() < o.to().id())
@@ -108,9 +109,27 @@ public class Arc {
         return 1;
     }
     
-     
     /** 
-     * métjode toString()
+     * Méthode equals
+     * @param objet générique
+     * @return boolean
+     * */
+    @Override
+    public boolean equals(Object obj) {
+    	return (this.compareTo(obj)> 0);
+    }
+    
+    /**
+     * Mathode hashCode
+     * @return hash de Arc
+     */
+    @Override
+    public int hashCode(){
+            return this.from.hashCode() * this.to.hashCode() * Double.valueOf(this.value).hashCode() * this.label.hashCode() * this.color.hashCode();
+    }
+    
+    /** 
+     * Métjode toString()
      * @return Arc sous forme d'un String
      */
     public String toString() {
@@ -118,7 +137,7 @@ public class Arc {
     }
 
     /** 
-     * methode d'affichage grammaire dot 
+     * Méthode d'affichage grammaire dot 
      * @return affchage sous forme de point
      **/
     public String toDot() {
@@ -130,4 +149,5 @@ public class Arc {
         String c = "color=" + this.color();
         return arc + " [" + l + c + "]\n";
     }
-}// end of Arc
+    
+}// Fin d'Arc
